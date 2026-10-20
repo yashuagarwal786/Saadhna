@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: saadhna
+    runtime: node
+    plan: starter
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/data
+    envVars:
+      - key: NODE_VERSION
+        value: 24.15.0
+      - key: DB_PATH
+        value: /var/data/festivals.db
+    disk:
+      name: saadhna-data
+      mountPath: /var/data
+      sizeGB: 1

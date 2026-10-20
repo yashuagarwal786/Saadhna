@@ -5,7 +5,13 @@ const { DatabaseSync } = require('node:sqlite');
 
 const ROOT = __dirname;
 const DATA = path.join(ROOT, 'hindu-festival-dataset');
-const db = new DatabaseSync(path.join(DATA, 'festivals.db'));
+const seedDatabasePath = path.join(DATA, 'festivals.db');
+const databasePath = process.env.DB_PATH || seedDatabasePath;
+if (databasePath !== seedDatabasePath && !fs.existsSync(databasePath)) {
+  fs.mkdirSync(path.dirname(databasePath), { recursive: true });
+  fs.copyFileSync(seedDatabasePath, databasePath);
+}
+const db = new DatabaseSync(databasePath);
 db.exec('PRAGMA foreign_keys = ON');
 const mime = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.json':'application/json; charset=utf-8', '.svg':'image/svg+xml' };
 const send = (res, status, body, type='application/json; charset=utf-8') => { res.writeHead(status, { 'Content-Type': type, 'Cache-Control':'no-store', 'X-Content-Type-Options':'nosniff' }); res.end(Buffer.isBuffer(body) || typeof body === 'string' ? body : JSON.stringify(body)); };

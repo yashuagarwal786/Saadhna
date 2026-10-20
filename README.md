@@ -13,6 +13,10 @@ npm run dev
 
 Open <http://localhost:3000>. There are no external runtime dependencies, so `npm install` only prepares the project metadata. `npm start` runs the same server. `PORT` can change the local port.
 
+## Deploy on Render
+
+The repository includes a Render Blueprint in `render.yaml`. In the Render dashboard, create a new Blueprint and connect `yashuagarwal786/Saadhna`; Render will read the service settings from that file. The service uses the included SQLite dataset and stores inquiries in a 1 GB persistent disk. The database is copied from the seed dataset the first time the service starts on that disk. Persistent disks require a paid Render web service plan; without persistent storage, inquiry records would be lost when the service restarts or redeploys.
+
 ## Pages and features
 
 - Home with search, next festival, 30-day list and year selector.
