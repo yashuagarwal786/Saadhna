@@ -1,0 +1,82 @@
+festival_id,year,start_date,end_date,date_confidence,alt_date,note
+lohri,2026,2026-01-13,,high,,
+makar-sankranti,2026,2026-01-14,,medium,2026-01-15,Sankranti moment on Jan 14; many rituals/snan on the morning of Jan 15.
+pongal,2026,2026-01-15,,medium,2026-01-14,Thai Pongal; some calendars list Jan 14.
+vasant-panchami,2026,2026-01-23,,high,,
+maha-shivratri,2026,2026-02-15,,high,,
+holika-dahan,2026,2026-03-03,,medium,2026-03-02,Purnima spans Mar 2-3; muhurat varies by city; verify for Jaipur.
+holi,2026,2026-03-04,,medium,2026-03-03,Rangwali Holi on Mar 4 in North India; some calendars list Mar 3.
+sheetla-ashtami,2026,2026-03-11,,medium,,
+hindu-new-year,2026,2026-03-19,,high,,Vikram Samvat 2083 begins.
+chaitra-navratri,2026,2026-03-19,2026-03-27,high,,
+gangaur,2026,2026-03-21,,medium,,Gangaur main day (Chaitra Shukla Tritiya).
+ram-navami,2026,2026-03-26,,medium,2026-03-27,North India lists Mar 26; some South calendars Mar 27.
+mahavir-jayanti,2026,2026-03-31,,medium,,
+hanuman-jayanti,2026,2026-04-02,,high,,
+akshaya-tritiya,2026,2026-04-19,,medium,2026-04-20,Some South Indian calendars list Apr 20.
+buddha-purnima,2026,2026-05-01,,medium,,
+ganga-dussehra,2026,2026-06-24,,medium,,2026 has an Adhik Maas; check sources.
+nirjala-ekadashi,2026,2026-06-25,,medium,,
+rath-yatra,2026,2026-07-16,,high,,
+guru-purnima,2026,2026-07-29,,high,,
+hariyali-teej,2026,2026-08-15,,medium,,
+nag-panchami,2026,2026-08-17,,medium,,
+onam,2026,2026-08-26,,high,,Thiruvonam.
+raksha-bandhan,2026,2026-08-28,,medium,2026-08-27,Some sources list Aug 27; check Bhadra Kaal for exact time.
+janmashtami,2026,2026-09-04,,medium,2026-09-03,Smarta and Vaishnava observances can differ by a day.
+hartalika-teej,2026,2026-09-14,,medium,,
+ganesh-chaturthi,2026,2026-09-14,,high,,
+vishwakarma-puja,2026,2026-09-17,,high,,Solar date (Kanya Sankranti).
+anant-chaturdashi,2026,2026-09-25,,high,,
+pitru-paksha,2026,2026-09-27,2026-10-10,medium,2026-09-26,Ends on Sarva Pitru Amavasya / Mahalaya (Oct 10). Some sources start Sep 26 (Purnima shraddh).
+sharad-navratri,2026,2026-10-11,2026-10-20,high,,
+durga-ashtami-navami,2026,2026-10-19,2026-10-20,medium,,"Ashtami Oct 19, Maha Navami Oct 20."
+dussehra,2026,2026-10-20,,high,,
+sharad-purnima,2026,2026-10-25,,medium,2026-10-26,Kojagiri night Oct 25; Purnima tithi vrat on Oct 26 per some calendars.
+karwa-chauth,2026,2026-10-28,,medium,2026-10-29,Sources disagree (Oct 28 vs Oct 29); decided by moonrise and Chaturthi at moonrise for your city.
+ahoi-ashtami,2026,2026-11-01,,high,,
+dhanteras,2026,2026-11-06,,high,,
+narak-chaturdashi,2026,2026-11-08,,medium,2026-11-07,Abhyang snan on Nov 8 morning; Kali Chaudas night observance on Nov 7 in some regions.
+diwali,2026,2026-11-08,,high,,Lakshmi Puja on Nov 8.
+govardhan-puja,2026,2026-11-09,,medium,2026-11-10,Gujarati New Year listed Nov 10 by some calendars.
+bhai-dooj,2026,2026-11-11,,high,,
+chhath-puja,2026,2026-11-13,2026-11-16,medium,,"Sandhya Arghya (main day) on Nov 15; Nahay-Khay Nov 13, Kharna Nov 14, Usha Arghya Nov 16 (derived from main day)."
+dev-uthani-ekadashi,2026,2026-11-20,,high,,
+tulsi-vivah,2026,2026-11-21,,medium,,
+kartik-purnima,2026,2026-11-24,,high,,Dev Diwali.
+guru-nanak-jayanti,2026,2026-11-24,,medium,,
+kalbhairav-jayanti,2026,2026-12-01,,medium,,
+vivah-panchami,2026,2026-12-14,,medium,,
+gita-jayanti,2026,2026-12-20,,medium,,Mokshada Ekadashi.
+lohri,2027,2027-01-13,,high,,
+makar-sankranti,2027,2027-01-15,,medium,2027-01-14,Sun enters Makara on the evening of Jan 14; observed Jan 15 by many calendars.
+pongal,2027,2027-01-14,,medium,2027-01-15,
+vasant-panchami,2027,2027-02-11,,medium,,
+maha-shivratri,2027,2027-03-06,,high,,
+holika-dahan,2027,2027-03-21,,high,,
+holi,2027,2027-03-22,,high,,One source lists Mar 23.
+ram-navami,2027,2027-04-15,,high,,
+hanuman-jayanti,2027,2027-04-20,,medium,,
+akshaya-tritiya,2027,2027-05-09,,high,,
+buddha-purnima,2027,2027-05-20,,medium,,
+vat-savitri,2027,2027-06-04,,medium,,Jyeshtha Amavasya (North India).
+ganga-dussehra,2027,2027-06-13,,medium,,
+nirjala-ekadashi,2027,2027-06-14,,high,,
+rath-yatra,2027,2027-07-05,,medium,,
+guru-purnima,2027,2027-07-18,,high,,
+hariyali-teej,2027,2027-08-04,,medium,,
+nag-panchami,2027,2027-08-06,,medium,,
+raksha-bandhan,2027,2027-08-17,,high,,
+janmashtami,2027,2027-08-25,,medium,2027-08-24,Smarta/Vaishnava difference possible.
+ganesh-chaturthi,2027,2027-09-04,,high,,
+onam,2027,2027-09-12,,medium,,
+anant-chaturdashi,2027,2027-09-14,,medium,,
+pitru-paksha,2027,2027-09-16,2027-09-29,low,,Start from a single source; end is the day before Navratri begins. Verify.
+sharad-navratri,2027,2027-09-30,2027-10-08,medium,2027-10-09,Maha Navami Oct 8 per most calendars; one lists Oct 9.
+durga-ashtami-navami,2027,2027-10-07,2027-10-08,medium,,
+dussehra,2027,2027-10-09,,high,,
+karwa-chauth,2027,2027-10-18,,high,,
+diwali,2027,2027-10-29,,medium,2027-10-28,Most calendars list Oct 29; one lists Oct 28.
+chhath-puja,2027,2027-11-04,,medium,,Main day (Sandhya Arghya); other days to be derived.
+kartik-purnima,2027,2027-11-14,,medium,,Dev Diwali.
+guru-nanak-jayanti,2027,2027-11-14,,low,,Kartik Purnima; verify.

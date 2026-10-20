@@ -1,0 +1,183 @@
+item_id,name_hi,name_en,category
+roli,रोली,Roli (red vermilion powder),basic
+kumkum,कुमकुम,Kumkum,basic
+haldi,हल्दी,Turmeric powder,basic
+akshat,अक्षत (साबुत चावल),Akshat (whole unbroken rice),basic
+moli,मौली / कलावा,Moli / Kalava (sacred red thread),basic
+chandan,चंदन,Sandalwood paste or powder,basic
+sindoor,सिंदूर,Sindoor,basic
+janeu,जनेऊ,Janeu (sacred thread),basic
+supari,सुपारी,Betel nut (supari),basic
+paan,पान के पत्ते,Betel leaves,basic
+laung,लौंग,Cloves,basic
+elaichi,इलायची,Cardamom,basic
+kapoor,कपूर,Camphor,basic
+dhoop,धूप,Dhoop (incense),basic
+agarbatti,अगरबत्ती,Agarbatti (incense sticks),basic
+diya-mitti,मिट्टी के दीये,Earthen lamps (diyas),basic
+chaar-mukhi-diya,चौमुखा दीया (यम दीपक),Four-faced diya (Yamadeep),basic
+akhand-jyot-diya,अखंड ज्योति का दीपक,Akhand jyoti lamp,basic
+ghee,घी,Ghee (clarified butter),basic
+ruyi-batti,रुई की बत्ती,Cotton wicks,basic
+sarson-tel,सरसों / तिल का तेल,Mustard or sesame oil,basic
+matchbox,माचिस,Matchbox,basic
+gulal,गुलाल,Gulal (coloured powder),basic
+attar,इत्र,Attar (perfume),basic
+gangajal,गंगाजल,Gangajal (holy water),basic
+nariyal,नारियल (पानी वाला),Coconut (with water),offering
+sookha-nariyal,सूखा नारियल (गोला),Dry coconut (gola),offering
+kalash,कलश (तांबे / पीतल का),Kalash (copper/brass pot),vessel
+aam-patte,आम के पत्ते,Mango leaves,flower-leaf
+kele-ke-patte,केले के पत्ते / खंभे,Banana leaves / stalks (for mandap),flower-leaf
+neem-patta,नीम के पत्ते,Neem leaves,flower-leaf
+bargad-patta,बरगद (वट) के पत्ते / टहनी,Banyan (vat) leaves/branch,flower-leaf
+doodh,दूध,Milk,offering
+dahi,दही,Curd,offering
+shahad,शहद,Honey,offering
+shakkar,शक्कर / बूरा,Sugar,offering
+panchamrit,"पंचामृत (दूध, दही, घी, शहद, शक्कर)",Panchamrit,offering
+tulsi-patra,तुलसी दल,Tulsi leaves,flower-leaf
+durva,दूर्वा घास,Durva grass,flower-leaf
+bel-patra,बेलपत्र,Bel (bilva) leaves,flower-leaf
+phool,ताज़े फूल,Fresh flowers,flower-leaf
+phool-mala,फूलों की माला,Flower garlands,flower-leaf
+kamal-phool,कमल का फूल,Lotus flower,flower-leaf
+genda-phool,गेंदे के फूल,Marigold flowers,flower-leaf
+gulab,गुलाब के फूल / पंखुड़ियाँ,Rose flowers / petals,flower-leaf
+gudhal,लाल गुड़हल,Red hibiscus,flower-leaf
+shami-patra,शमी के पत्ते,Shami leaves,flower-leaf
+dhatura,धतूरा,Dhatura fruit/flower,flower-leaf
+aak-phool,आक (मदार) के फूल,Aak / Madar flowers,flower-leaf
+lal-vastra,लाल वस्त्र / कपड़ा,Red cloth,cloth
+peela-vastra,पीला वस्त्र / कपड़ा,Yellow cloth,cloth
+safed-vastra,सफेद वस्त्र / कपड़ा,White cloth,cloth
+chunri,चुनरी,Chunri,cloth
+sari-suhag,साड़ी / सुहाग का सामान,Saree and suhag items,cloth
+dhoti,धोती,Dhoti,cloth
+poshak,देव पोशाक व श्रृंगार,Outfit and ornaments for deity,cloth
+chowki,चौकी / पाटा,Wooden stool (chowki),vessel
+asan,आसन,Prayer mat (aasan),vessel
+thali,पूजा की थाली,Puja thali,vessel
+lota,लोटा / आचमनी,Lota and achamani spoon,vessel
+tamba-patra,तांबे का पात्र,Copper vessel,vessel
+tilak-thali,तिलक की थाली,Tilak thali,vessel
+karwa,करवा (मिट्टी / धातु का),Karwa (clay/metal pot),vessel
+chhalni,छलनी,Sieve (chhalni),vessel
+soop,बाँस का सूप / दौरा (टोकरी),Bamboo soop / daura basket,vessel
+jhula,झूला,Swing (jhula) for deity,vessel
+conch-ghanti,शंख व घंटी,Conch shell and bell,vessel
+kusha,कुशा,Kusha grass,special
+kala-til,काले तिल,Black sesame seeds,grain-seed
+safed-til,सफेद तिल,White sesame seeds,grain-seed
+jau,जौ,Barley,grain-seed
+gehun,गेहूँ,Wheat grains,grain-seed
+chawal,चावल,Rice,grain-seed
+kali-urad,काली उड़द,Black urad,grain-seed
+kala-chana,काले चने,Black gram (chana),grain-seed
+sapt-dhanya,सप्तधान्य,Seven grains,grain-seed
+bali-gehun-chana,नई फसल की बालियाँ (गेहूँ / चना),Fresh grain ears (wheat/gram),grain-seed
+fal,मौसमी फल,Seasonal fruits,offering
+kela,केला,Banana,offering
+kheera,खीरा,"Cucumber (symbolic birth, Janmashtami)",offering
+ganna,गन्ना,Sugarcane,offering
+singhara,सिंघाड़ा,Water chestnut,offering
+shakarkand,शकरकंद,Sweet potato,offering
+amla,आँवला,Amla (gooseberry),offering
+nimbu,नींबू,Lemon,offering
+mithai,मिठाई,Sweets,food-sweet
+batasha,बताशे,Batasha,food-sweet
+khil,खील (लावा),Khil (puffed rice),food-sweet
+makhana,मखाना,Makhana,food-sweet
+panch-meva,पंचमेवा / सूखे मेवे,Dry fruits (panch meva),food-sweet
+gud,गुड़,Jaggery,food-sweet
+mishri,मिश्री,Mishri (rock sugar),food-sweet
+makhan,माखन-मिश्री,Makhan-mishri,food-sweet
+modak,मोदक,Modak,food-sweet
+laddu,लड्डू (बेसन / मोतीचूर),Laddu,food-sweet
+boondi,बूंदी,Boondi,food-sweet
+panjiri,पंजीरी,Panjiri,food-sweet
+sooji-halwa,सूजी का हलवा / शीरा (प्रसाद),Suji halwa / sheera (prasad),food-sweet
+kheer-ingr,"खीर सामग्री (दूध, चावल, शक्कर)",Kheer ingredients,food-sweet
+halwa-puri-chana,"हलवा, पूरी, काले चने","Halwa, puri and black chana",food-sweet
+thekua,ठेकुआ,Thekua,food-sweet
+gujiya,गुजिया,Gujiya,food-sweet
+ghevar,घेवर,Ghevar,food-sweet
+til-gud,तिल-गुड़ के लड्डू / गजक,Til-gud laddu / gajak,food-sweet
+khichdi-daan,खिचड़ी (दाल-चावल) दान हेतु,Khichdi ingredients for daan,food-sweet
+sargi,सरगी (सुबह की थाली),Sargi (pre-dawn meal),food-sweet
+basi-bhojan,"ठंडा / एक दिन पहले का बना भोजन (रोटी, खीर, दही)",Cold food cooked the day before,food-sweet
+kesari-bhaat,केसरिया भात / मीठे पीले चावल,Kesari bhaat (sweet yellow rice),food-sweet
+anna-bhog,अन्नकूट / 56 भोग सामग्री,Annakut / Chappan bhog dishes,food-sweet
+thandai-ingr,ठंडाई सामग्री,Thandai ingredients,food-sweet
+bhojan-brahman,"ब्राह्मण भोजन / सीधा (अन्न, दक्षिणा)",Food / sidha for Brahmin,food-sweet
+solah-shringar,सोलह श्रृंगार सामग्री,Solah shringar items,shringar
+chudi,चूड़ियाँ,Bangles,shringar
+bindi,बिंदी,Bindi,shringar
+alta,आलता,Alta,shringar
+mehendi,मेहंदी,Mehendi,shringar
+mangalsutra,मंगलसूत्र,Mangalsutra,shringar
+varmala,वरमाला,Varmala garlands,shringar
+dakshina,दक्षिणा,Dakshina (offering to pandit),special
+havan-kund,हवन कुंड,Havan kund,havan
+havan-samagri,हवन सामग्री (तैयार मिश्रण),Havan samagri mix,havan
+aam-lakdi,आम की समिधा / लकड़ी,Mango wood samidha,havan
+gobar-upla,गोबर के उपले,Dried cow-dung cakes,havan
+sruva,स्रुवा (घी की आहुति हेतु चम्मच),Sruva (ghee ladle),havan
+purnahuti-gola,पूर्णाहुति का नारियल (गोला),Coconut gola for purnahuti,havan
+navgraha-samidha,नवग्रह समिधा,Navagraha samidhas,havan
+holi-lakdi,होलिका हेतु लकड़ी / उपले,Wood / cow-dung cakes for Holika,havan
+badkule,गोबर के बड़कुले / मालाएँ,Cow-dung garlands (badkule),havan
+ganesh-murti,गणेश जी की मूर्ति,Ganesha idol,idol
+lakshmi-ganesh-murti,लक्ष्मी-गणेश की मूर्ति / चित्र,Lakshmi-Ganesh idol or picture,idol
+saraswati-murti,सरस्वती जी की मूर्ति / चित्र,Saraswati idol or picture,idol
+durga-murti,दुर्गा जी की मूर्ति / चित्र,Durga idol or picture,idol
+shivling,शिवलिंग,Shivling,idol
+vishnu-murti,विष्णु / सत्यनारायण जी की मूर्ति / चित्र,Vishnu / Satyanarayan idol or picture,idol
+shaligram,शालिग्राम,Shaligram,idol
+laddu-gopal,लड्डू गोपाल जी,Laddu Gopal idol,idol
+ram-darbar,राम दरबार की मूर्ति / चित्र,Ram Darbar picture,idol
+hanuman-murti,हनुमान जी की मूर्ति / चित्र,Hanuman idol or picture,idol
+dhanvantari-chitra,धन्वंतरि जी का चित्र,Dhanvantari picture,idol
+bhairav-chitra,कालभैरव का चित्र,Kal Bhairav picture,idol
+isar-gauri,ईसर-गौर की मिट्टी की प्रतिमाएँ,Isar-Gauri clay idols,idol
+naag-chitra,नाग देवता का चित्र / मूर्ति,Naga devta picture/idol,idol
+ahoi-chitra,अहोई माता का चित्र,Ahoi Mata picture,idol
+shiv-parvati-mitti,मिट्टी / बालू की शिव-पार्वती प्रतिमा,Clay/sand Shiv-Parvati idols,idol
+vishwakarma-chitra,विश्वकर्मा जी का चित्र,Vishwakarma picture,idol
+guru-chitra,गुरु का चित्र / पादुका,Guru picture / padukas,idol
+sita-ram-vivah-chitra,सीता-राम विवाह चित्र,Sita-Ram vivah picture,idol
+teej-mata-chitra,तीज माता का चित्र,Teej Mata picture,idol
+tulsi-plant,तुलसी का पौधा (गमले में),Tulsi plant (potted),special
+bhasma,भस्म (विभूति),Bhasma (vibhuti),special
+rudraksha-mala,रुद्राक्ष माला,Rudraksha mala,special
+gau-gobar,गाय का गोबर,Cow dung,special
+mitti,शुद्ध मिट्टी,Clean clay,special
+rakhi,राखी,Rakhi,special
+bhai-uphar,भाई के लिए उपहार,Gift for brother,special
+sikka,चांदी का सिक्का / सिक्के,Silver coins,special
+dhaniya-sabut,साबुत धनिया,Whole coriander seeds,special
+cowrie,कौड़ी,Cowrie shells,special
+nai-bartan,नया बर्तन / धातु (खरीद हेतु),New utensil / metal item,special
+ubtan,उबटन,Ubtan,special
+bahi-khata,बही-खाता / कलम-दवात,Account books and pen,special
+shastra,शस्त्र / औज़ार / किताबें (पूजन हेतु),Tools/books for shastra pujan,special
+kitab-kalam,पुस्तकें व कलम,Books and pen,special
+raw-cotton-thread,कच्चा सूत,Raw cotton thread,special
+pichkari,पिचकारी,Water gun (pichkari),special
+patang,पतंग व मांझा,Kite and string,special
+daan-vastra,दान हेतु कंबल / वस्त्र / अनाज,Blankets/clothes/grain for daan,special
+bans-pankha,बाँस का पंखा,Hand fan (bamboo),special
+jwara-patra,जवारे बोने का पात्र व मिट्टी,Pot and soil for jwara (barley sprouts),special
+kanya-bhet,"कन्या पूजन की भेंट (चुनरी, चूड़ी, फल)","Gifts for kanyas (chunri, bangles, fruit)",special
+durga-saptashati,दुर्गा सप्तशती पुस्तक,Durga Saptashati book,special
+ramcharitmanas,रामचरितमानस / सुंदरकांड पुस्तक,Ramcharitmanas / Sundarkand book,special
+chola-sindoor,चमेली का तेल व सिंदूर (चोला),Jasmine oil with sindoor (chola),special
+gita-pustak,श्रीमद्भगवद्गीता,Bhagavad Gita book,special
+katha-pustak,व्रत कथा पुस्तक,Vrat katha book,special
+mor-mukut-bansuri,मोर मुकुट व बाँसुरी,Peacock crown and flute,special
+silver-ahoi,चाँदी की अहोई / स्याऊ,Silver Ahoi pendant,special
+pind-samagri,"पिंड सामग्री (जौ/चावल का आटा, तिल, शहद)","Pind ingredients (barley/rice flour, sesame, honey)",special
+panchbali-bhog,"पंचबलि भोग (गाय, कुत्ता, कौआ, चींटी, देव)",Panchabali offerings,special
+neev-patthar,नींव का पत्थर / ईंट,Foundation stone / brick,special
+navgraha-vastra,नवग्रह के नौ रंगों के वस्त्र,Nine-coloured cloths for navagraha,cloth
+dhwaja,ध्वज / पताका,Flag (dhwaja),special

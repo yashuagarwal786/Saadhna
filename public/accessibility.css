@@ -1,0 +1,3 @@
+:focus-visible{outline:3px solid #8e492c;outline-offset:3px;border-radius:3px}
+button:disabled{opacity:.65;cursor:wait}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

@@ -1,0 +1,13 @@
+month_no,name_hi,name_en,approx_gregorian,ritu_season,key_festivals
+1,चैत्र,Chaitra,Mar-Apr,वसंत (Vasant),"Hindu New Year (Vikram Samvat), Chaitra Navratri, Gangaur, Ram Navami, Hanuman Jayanti, Mahavir Jayanti"
+2,वैशाख,Vaishakh,Apr-May,ग्रीष्म (Grishma),"Akshaya Tritiya, Buddha Purnima, Narasimha Jayanti, Ganga Saptami"
+3,ज्येष्ठ,Jyeshtha,May-Jun,ग्रीष्म (Grishma),"Vat Savitri, Ganga Dussehra, Nirjala Ekadashi"
+4,आषाढ़,Ashadha,Jun-Jul,वर्षा (Varsha),"Rath Yatra, Guru Purnima, Devshayani Ekadashi (Chaturmas begins)"
+5,श्रावण,Shravan,Jul-Aug,वर्षा (Varsha),"Sawan Somvar, Hariyali Teej, Nag Panchami, Raksha Bandhan"
+6,भाद्रपद,Bhadrapada,Aug-Sep,शरद (Sharad),"Janmashtami, Hartalika Teej, Ganesh Chaturthi, Anant Chaturdashi, Pitru Paksha begins"
+7,आश्विन,Ashwin,Sep-Oct,शरद (Sharad),"Pitru Paksha ends, Sharad Navratri, Durga Puja, Dussehra, Sharad Purnima"
+8,कार्तिक,Kartik,Oct-Nov,हेमंत (Hemant),"Karwa Chauth, Ahoi Ashtami, Dhanteras, Diwali, Govardhan Puja, Bhai Dooj, Chhath, Dev Uthani Ekadashi, Tulsi Vivah, Kartik Purnima"
+9,मार्गशीर्ष,Margashirsha,Nov-Dec,हेमंत (Hemant),"Kalbhairav Jayanti, Vivah Panchami, Gita Jayanti (Mokshada Ekadashi)"
+10,पौष,Paush,Dec-Jan,शिशिर (Shishir),"Paush Putrada Ekadashi, Paush Purnima; Makar Sankranti (solar) falls at the Paush-Magh boundary"
+11,माघ,Magh,Jan-Feb,शिशिर (Shishir),"Vasant Panchami, Maghi Purnima, Maha Shivratri (Magh Krishna Chaturdashi in Amanta/southern reckoning)"
+12,फाल्गुन,Phalgun,Feb-Mar,वसंत (Vasant),"Maha Shivratri (Purnimanta: Phalgun Krishna Chaturdashi), Holika Dahan, Holi"

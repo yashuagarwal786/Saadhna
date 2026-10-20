@@ -1,0 +1,16 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE hindu_months(month_no INTEGER PRIMARY KEY, name_hi TEXT, name_en TEXT, approx_gregorian TEXT, ritu_season TEXT, key_festivals TEXT);
+CREATE TABLE tithis(tithi_no INTEGER PRIMARY KEY, name_hi TEXT, name_en TEXT, devata TEXT, significance TEXT);
+CREATE TABLE pooja_types(pooja_id TEXT PRIMARY KEY, name_hi TEXT, name_en TEXT, description TEXT, duration_hours TEXT, pandit_required TEXT, best_for TEXT, muhurat_rule TEXT);
+CREATE TABLE festivals(festival_id TEXT PRIMARY KEY, name_hi TEXT, name_en TEXT, category TEXT, tradition TEXT, deity TEXT, hindu_month TEXT, paksha TEXT, tithi TEXT, calendar_basis TEXT, fasting TEXT, pandit_needed TEXT, is_major TEXT, duration_days TEXT, significance TEXT, how_celebrated TEXT, traditional_foods TEXT, muhurat_rule TEXT, regional_notes TEXT, related_pooja_id TEXT REFERENCES pooja_types(pooja_id));
+CREATE TABLE festival_dates(festival_id TEXT REFERENCES festivals(festival_id), year INTEGER, start_date TEXT, end_date TEXT, date_confidence TEXT, alt_date TEXT, note TEXT, PRIMARY KEY(festival_id, year));
+CREATE TABLE rituals(festival_id TEXT REFERENCES festivals(festival_id), step_no INTEGER, phase TEXT, title TEXT, description TEXT, PRIMARY KEY(festival_id, step_no));
+CREATE TABLE samagri_items(item_id TEXT PRIMARY KEY, name_hi TEXT, name_en TEXT, category TEXT);
+CREATE TABLE festival_samagri(festival_id TEXT REFERENCES festivals(festival_id), item_id TEXT REFERENCES samagri_items(item_id), quantity TEXT, is_optional TEXT, PRIMARY KEY(festival_id, item_id));
+CREATE TABLE pooja_samagri(pooja_id TEXT REFERENCES pooja_types(pooja_id), item_id TEXT REFERENCES samagri_items(item_id), quantity TEXT, is_optional TEXT, PRIMARY KEY(pooja_id, item_id));
+CREATE TABLE pandits(pandit_id TEXT PRIMARY KEY, name TEXT, honorific TEXT, city TEXT, state TEXT, area_served TEXT, languages TEXT, experience_years INTEGER, fee_min_inr INTEGER, fee_max_inr INTEGER, travel_available TEXT, online_puja_available TEXT, rating_sample REAL, is_sample TEXT, verified TEXT, contact_phone TEXT, notes TEXT);
+CREATE TABLE pandit_poojas(pandit_id TEXT REFERENCES pandits(pandit_id), pooja_id TEXT REFERENCES pooja_types(pooja_id), PRIMARY KEY(pandit_id, pooja_id));
+CREATE TABLE data_sources(source_id TEXT PRIMARY KEY, name TEXT, url TEXT, used_for TEXT);
+CREATE TABLE pandit_inquiries(id INTEGER PRIMARY KEY AUTOINCREMENT, created_at TEXT DEFAULT CURRENT_TIMESTAMP, name TEXT, phone TEXT, city TEXT, festival_id TEXT, pooja_id TEXT, preferred_date TEXT, pandit_id TEXT, message TEXT);
+CREATE INDEX idx_dates_start ON festival_dates(start_date);
+CREATE INDEX idx_pandit_city ON pandits(city);

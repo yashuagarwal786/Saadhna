@@ -1,0 +1,14 @@
+{
+  "name": "parv-puja",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=22.13.0" },
+  "description": "Bilingual guide to Hindu calendar festivals, pujas and samagri.",
+  "scripts": {
+    "dev": "node --disable-warning=ExperimentalWarning server.js",
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "build": "node scripts/build.js",
+    "validate:data": "node scripts/validate-data.js",
+    "test": "node --test"
+  }
+}

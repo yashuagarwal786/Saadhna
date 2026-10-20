@@ -1,0 +1,25 @@
+pandit_id,name,honorific,city,state,area_served,languages,experience_years,fee_min_inr,fee_max_inr,travel_available,online_puja_available,rating_sample,is_sample,verified,contact_phone,notes
+pd-001,Ramesh Sharma,Pt.,Jaipur,Rajasthan,"Jaipur, Sanganer, Vaishali Nagar","Hindi, Sanskrit, Rajasthani",18,2100,11000,yes,yes,4.7,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-002,Suresh Tripathi,Pt.,Jaipur,Rajasthan,"Malviya Nagar, Mansarovar, Jhotwara","Hindi, Sanskrit",22,3100,21000,yes,yes,4.8,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-003,Dinesh Joshi,Pt.,Jaipur,Rajasthan,"Walled City, Civil Lines, Bani Park","Hindi, Sanskrit",25,5100,51000,yes,no,4.6,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-004,Manoj Pareek,Pt.,Jaipur,Rajasthan,"Tonk Road, Jagatpura, Pratap Nagar","Hindi, Sanskrit",15,3100,15000,yes,no,4.5,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-005,Hariom Vyas,Pt.,Jaipur,Rajasthan,Jaipur and Greater Jaipur,"Hindi, Sanskrit",12,1100,9000,yes,yes,4.4,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-006,Anil Dadhich,Pt.,Pushkar,Rajasthan,"Pushkar, Ajmer","Hindi, Sanskrit, English",30,2100,11000,no,yes,4.9,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-007,Mukesh Purohit,Pt.,Jodhpur,Rajasthan,Jodhpur,"Hindi, Sanskrit, Marwari",20,2500,21000,yes,no,4.5,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-008,Gopal Acharya,Pt.,Udaipur,Rajasthan,Udaipur,"Hindi, Sanskrit, Mewari",16,2500,15000,yes,yes,4.6,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-009,Rajiv Mishra,Pt.,Delhi,Delhi,"South Delhi, Noida, Gurugram","Hindi, Sanskrit, English",14,3100,21000,yes,yes,4.6,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-010,Vinod Dubey,Pt.,Delhi,Delhi,"North Delhi, Rohini","Hindi, Sanskrit",19,5100,41000,yes,no,4.5,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-011,Shankar Upadhyay,Pt.,Varanasi,Uttar Pradesh,Varanasi,"Hindi, Sanskrit, Bhojpuri",28,2100,31000,yes,yes,4.9,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-012,Ashok Pandey,Pt.,Prayagraj,Uttar Pradesh,Prayagraj,"Hindi, Sanskrit",21,1500,11000,yes,yes,4.5,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-013,Mahesh Chaturvedi,Pt.,Mathura,Uttar Pradesh,"Mathura, Vrindavan","Hindi, Sanskrit, Braj",24,2100,15000,yes,yes,4.7,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-014,Kamlesh Bhatt,Pt.,Haridwar,Uttarakhand,"Haridwar, Rishikesh","Hindi, Sanskrit",27,2100,21000,no,yes,4.8,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-015,Pramod Shastri,Pt.,Ujjain,Madhya Pradesh,"Ujjain, Indore","Hindi, Sanskrit",23,3100,25000,yes,yes,4.8,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-016,Rakesh Pathak,Pt.,Lucknow,Uttar Pradesh,Lucknow,"Hindi, Sanskrit, Awadhi",17,2500,21000,yes,no,4.4,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-017,Sunil Kulkarni,Pt.,Pune,Maharashtra,"Pune, Pimpri-Chinchwad","Marathi, Hindi, Sanskrit",16,2100,15000,yes,yes,4.6,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-018,Nilesh Joshi,Pt.,Ahmedabad,Gujarat,"Ahmedabad, Gandhinagar","Gujarati, Hindi, Sanskrit",13,2100,11000,yes,yes,4.5,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-019,Venkatesh Iyer,Pt.,Bengaluru,Karnataka,Bengaluru,"Tamil, Kannada, Sanskrit, English",20,3100,21000,yes,yes,4.7,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-020,Santosh Jha,Pt.,Patna,Bihar,Patna,"Hindi, Maithili, Sanskrit",19,2100,21000,yes,no,4.5,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-021,Ganesh Dixit,Pt.,Jaipur,Rajasthan,"Vidhyadhar Nagar, Jagatpura","Hindi, Sanskrit",9,1100,7000,yes,yes,4.3,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-022,Ashutosh Mishra,Pt.,Jaipur,Rajasthan,"Gopalpura, Mansarovar","Hindi, Sanskrit",11,2100,15000,yes,no,4.4,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-023,Narendra Sharma,Pt.,Kota,Rajasthan,Kota,"Hindi, Sanskrit",14,2100,11000,yes,no,4.3,yes,no,,SAMPLE DATA - replace with verified pandit profiles
+pd-024,Brijesh Gaur,Pt.,Ayodhya,Uttar Pradesh,Ayodhya,"Hindi, Sanskrit, Awadhi",26,2100,21000,yes,yes,4.8,yes,no,,SAMPLE DATA - replace with verified pandit profiles
