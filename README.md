@@ -24,6 +24,7 @@ The repository includes a Render Blueprint in `render.yaml`. In the Render dashb
 - Festival and puja detail pages with rituals, foods, fasting, muhurat notes, regional notes, and printable/copyable/shareable checklist with saved checkmarks.
 - Pandit directory with city, language, puja, online and travel filters. Profiles are clearly identified as samples; contact numbers are not exposed.
 - Inquiry form with Indian 10-digit mobile validation, persisted to `pandit_inquiries`.
+- Shanti Pal (`/shanti`), a bilingual page with optional guided breathing, mantra counters, grounding steps, reflection, and India helplines.
 - Learn page for months and tithis; About/Sources page for source links and data limitations.
 - Responsive layout, bilingual toggle, page titles, sitemap, keyboard-visible focus, and print stylesheet.
 
@@ -47,6 +48,7 @@ lib/festival-data.js     year-aware filtering helpers
 scripts/                 build and dataset validation checks
 tests/                   unit tests for filtering and upcoming dates
 hindu-festival-dataset/  supplied SQLite DB, schema, CSVs, bundle and builder
+                        plus calm_support.json content for Shanti Pal
 ```
 
 ## Assumptions and data notes

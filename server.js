@@ -6,6 +6,7 @@ const { DatabaseSync } = require('node:sqlite');
 const ROOT = __dirname;
 const DATA = path.join(ROOT, 'hindu-festival-dataset');
 const seedDatabasePath = path.join(DATA, 'festivals.db');
+const calmSupport = JSON.parse(fs.readFileSync(path.join(DATA, 'calm_support.json'), 'utf8'));
 const databasePath = process.env.DB_PATH || seedDatabasePath;
 if (databasePath !== seedDatabasePath && !fs.existsSync(databasePath)) {
   fs.mkdirSync(path.dirname(databasePath), { recursive: true });
@@ -28,7 +29,7 @@ const data = () => {
   for(const p of poojas){p.samagri=all(`SELECT s.item_id,s.name_hi,s.name_en,s.category,x.quantity,x.is_optional AS optional FROM pooja_samagri x JOIN samagri_items s USING(item_id) WHERE x.pooja_id=? ORDER BY s.category,s.name_en`,p.pooja_id).map(x=>({...x,optional:x.optional==='yes'}));p.pandit_ids=all('SELECT pandit_id FROM pandit_poojas WHERE pooja_id=?',p.pooja_id).map(x=>x.pandit_id);}
   const pandits=all('SELECT pandit_id,name,honorific,city,state,area_served,languages,experience_years,fee_min_inr,fee_max_inr,travel_available,online_puja_available,rating_sample,is_sample,verified,notes FROM pandits');
   for(const p of pandits)p.pooja_ids=all('SELECT pooja_id FROM pandit_poojas WHERE pandit_id=?',p.pandit_id).map(x=>x.pooja_id);
-  return {festivals,poojas,pandits,months:all('SELECT * FROM hindu_months ORDER BY month_no'),tithis:all('SELECT * FROM tithis ORDER BY tithi_no'),sources:all('SELECT * FROM data_sources ORDER BY source_id')};
+  return {festivals,poojas,pandits,months:all('SELECT * FROM hindu_months ORDER BY month_no'),tithis:all('SELECT * FROM tithis ORDER BY tithi_no'),sources:all('SELECT * FROM data_sources ORDER BY source_id'),calmSupport};
 };
 
 const server=http.createServer((req,res)=>{
@@ -45,7 +46,7 @@ const server=http.createServer((req,res)=>{
     }catch(e){send(res,400,{error:'Could not save the inquiry. Please check your details and try again.'})}});return;
   }
   if(req.method==='GET' && url.pathname==='/sitemap.xml'){
-    const origin=`${req.headers['x-forwarded-proto']||url.protocol.replace(':','')}://${req.headers['x-forwarded-host']||req.headers.host||url.host}`;const ids=all('SELECT festival_id FROM festivals').map(x=>`<url><loc>${origin}/festivals/${encodeURIComponent(x.festival_id)}</loc></url>`).join('');return send(res,200,`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${origin}/</loc></url><url><loc>${origin}/calendar</loc></url><url><loc>${origin}/poojas</loc></url>${ids}</urlset>`,'application/xml; charset=utf-8');
+    const origin=`${req.headers['x-forwarded-proto']||url.protocol.replace(':','')}://${req.headers['x-forwarded-host']||req.headers.host||url.host}`;const ids=all('SELECT festival_id FROM festivals').map(x=>`<url><loc>${origin}/festivals/${encodeURIComponent(x.festival_id)}</loc></url>`).join('');return send(res,200,`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${origin}/</loc></url><url><loc>${origin}/calendar</loc></url><url><loc>${origin}/poojas</loc></url><url><loc>${origin}/shanti</loc></url>${ids}</urlset>`,'application/xml; charset=utf-8');
   }
   let file=url.pathname==='/'?'/index.html':url.pathname;
   if(file.includes('..'))return send(res,400,'Bad path','text/plain');

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "working_title_hi": "शांति पल",
+    "working_title_en": "Shanti Pal (A Calm Moment)",
+    "route": "/shanti",
+    "disclaimer_hi": "यह आध्यात्मिक सहारा है। यह डॉक्टर, काउंसलर या किसी पेशेवर सलाह का विकल्प नहीं है, और इसके नतीजे की कोई गारंटी नहीं है। कई लोगों को प्रार्थना और गहरी साँस से मन थोड़ा शांत महसूस होता है।",
+    "disclaimer_en": "This is spiritual support only. It is not a substitute for a doctor, counsellor or other professional help, and no outcome is guaranteed. Many people find that prayer and slow breathing help them feel a little calmer.",
+    "tone_rules": [
+      "Plain, warm, short sentences (about class 8 reading level).",
+      "Use soft wording: 'can help', 'many people find'. Never 'will solve', 'guaranteed', 'removes all problems'.",
+      "Never blame, shame, or create urgency or fear. No astrology predictions or doshas.",
+      "Never promise exam marks, cure of illness, or reconciliation."
+    ]
+  },
+  "helplines": [
+    {"id": "tele-manas", "name_hi": "टेली-मानस (भारत सरकार) - मुफ़्त, 24x7, कई भाषाओं में", "name_en": "Tele-MANAS (Govt. of India) - free, 24x7, many languages", "number": "14416", "alt_number": "1800-89-14416", "covers_hi": "तनाव, परीक्षा का तनाव, पारिवारिक समस्याएँ, घबराहट, और अपने को नुकसान पहुँचाने के विचार", "covers_en": "stress, exam stress, family problems, anxiety, and thoughts of self-harm", "verify_before_launch": false},
+    {"id": "emergency-112", "name_hi": "आपातकालीन सेवा (पुलिस / एम्बुलेंस / फ़ायर)", "name_en": "Emergency services (police / ambulance / fire)", "number": "112", "alt_number": "", "covers_hi": "तुरंत खतरा, हिंसा, मेडिकल इमरजेंसी", "covers_en": "immediate danger, violence, medical emergency", "verify_before_launch": false},
+    {"id": "women-181", "name_hi": "महिला हेल्पलाइन", "name_en": "Women Helpline", "number": "181", "alt_number": "", "covers_hi": "घर में हिंसा या दुर्व्यवहार; सेवा राज्य के अनुसार बदल सकती है", "covers_en": "domestic violence or abuse; availability varies by state", "verify_before_launch": false}
+  ],
+  "breathing": [
+    {"id": "calm-4-6", "label_hi": "धीमी साँस (4 अंदर, 6 बाहर)", "label_en": "Slow breath (in 4, out 6)", "inhale_sec": 4, "hold_sec": 0, "exhale_sec": 6, "default_cycles": 6, "cue_hi": ["नाक से धीरे साँस लो", "मुँह से धीरे-धीरे छोड़ो"], "cue_en": ["Breathe in slowly through the nose", "Let it out slowly through the mouth"], "note": "Skip or shorten if it feels uncomfortable; never force."},
+    {"id": "box-4", "label_hi": "चौकोर साँस (4-4-4-4)", "label_en": "Box breath (4-4-4-4)", "inhale_sec": 4, "hold_sec": 4, "exhale_sec": 4, "hold_after_sec": 4, "default_cycles": 5, "cue_hi": ["साँस अंदर", "रोको", "साँस बाहर", "रोको"], "cue_en": ["In", "Hold", "Out", "Hold"], "note": "Offer a no-hold option for people who feel breathless."}
+  ],
+  "mantras": [
+    {"id": "m-om", "deity": "Om", "text_dev": "ॐ", "text_roman": "Om", "meaning_hi": "ब्रह्मांड की मूल ध्वनि; धीरे और लंबा उच्चारण मन को स्थिर करने में सहायक माना जाता है।", "meaning_en": "The primordial sound; slow, long chanting is traditionally used to steady the mind.", "counts": [11, 21, 54, 108]},
+    {"id": "m-gayatri", "deity": "Savitri (Gayatri)", "text_dev": "ॐ भूर्भुवः स्वः । तत्सवितुर्वरेण्यं । भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥", "text_roman": "Om bhur bhuvah svah | tat savitur varenyam | bhargo devasya dhimahi | dhiyo yo nah prachodayat ||", "meaning_hi": "हम उस दिव्य सविता के तेज का ध्यान करते हैं; वह हमारी बुद्धि को सही दिशा में प्रेरित करे।", "meaning_en": "We meditate on the radiance of the divine Savitri; may it inspire our understanding.", "counts": [3, 11, 21, 108]},
+    {"id": "m-saraswati-vandana", "deity": "Saraswati", "text_dev": "या कुन्देन्दुतुषारहारधवला या शुभ्रवस्त्रावृता । या वीणावरदण्डमण्डितकरा या श्वेतपद्मासना । या ब्रह्माच्युतशङ्करप्रभृतिभिर्देवैः सदा वन्दिता । सा मां पातु सरस्वती भगवती निःशेषजाड्यापहा ॥", "text_roman": "Ya kundendu-tushara-hara-dhavala, ya shubhra-vastravrita | ya veena-vara-danda-manditakara, ya shveta-padmasana | ya brahmachyuta-shankara-prabhritibhir devaih sada vandita | sa mam patu sarasvati bhagavati nihshesha-jadyapaha ||", "meaning_hi": "जो चमेली, चंद्रमा और बर्फ़ के हार जैसी श्वेत हैं, वीणा धारण करती हैं और श्वेत कमल पर विराजमान हैं, वे देवी सरस्वती मेरी रक्षा करें और मेरी सारी जड़ता दूर करें।", "meaning_en": "May Goddess Saraswati, pure white like jasmine and moonlight, holding the veena and seated on a white lotus, protect me and remove all dullness of mind.", "counts": [1, 3, 11]},
+    {"id": "m-saraswati-beej", "deity": "Saraswati", "text_dev": "ॐ ऐं सरस्वत्यै नमः", "text_roman": "Om Aim Sarasvatyai Namah", "meaning_hi": "विद्या की देवी सरस्वती को प्रणाम।", "meaning_en": "Salutations to Saraswati, goddess of learning.", "counts": [11, 21, 54, 108]},
+    {"id": "m-ganesh-vakratunda", "deity": "Ganesha", "text_dev": "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ । निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥", "text_roman": "Vakratunda mahakaya, surya-koti-samaprabha | nirvighnam kuru me deva, sarva-karyeshu sarvada ||", "meaning_hi": "हे वक्रतुंड, विशाल देह और करोड़ों सूर्यों के समान तेज वाले देव, मेरे सब कार्यों में सदा बाधाएँ दूर करें।", "meaning_en": "O Lord with the curved trunk and the brilliance of a million suns, please remove obstacles from all my undertakings.", "counts": [1, 3, 11]},
+    {"id": "m-guru-shloka", "deity": "Guru", "text_dev": "गुरुर्ब्रह्मा गुरुर्विष्णुः गुरुर्देवो महेश्वरः । गुरुः साक्षात् परब्रह्म तस्मै श्रीगुरवे नमः ॥", "text_roman": "Gurur Brahma gurur Vishnuh, gurur devo Maheshvarah | Guruh sakshat param Brahma, tasmai shri-gurave namah ||", "meaning_hi": "गुरु ही ब्रह्मा, विष्णु और महेश्वर हैं; गुरु साक्षात परब्रह्म हैं; उन गुरु को प्रणाम।", "meaning_en": "The teacher is Brahma, Vishnu and Maheshwara; the teacher is the Supreme itself. Salutations to that teacher.", "counts": [1, 3, 11]},
+    {"id": "r-gita-2-47", "deity": "Krishna (Bhagavad Gita 2.47)", "type": "reflection", "text_dev": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन । मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥", "text_roman": "Karmanyevadhikaraste ma phaleshu kadachana | ma karma-phala-hetur bhur ma te sango 'stv akarmani ||", "meaning_hi": "तुम्हारा अधिकार कर्म करने पर है, उसके फल पर नहीं। फल की चिंता तुम्हारे कर्म का कारण न बने, और कर्म न करने में भी तुम्हारी आसक्ति न हो।", "meaning_en": "You have a right to your effort, not to its results. Do not let the result be your motive, and do not cling to inaction either.", "counts": [1]},
+    {"id": "m-hanuman-buddhiheen", "deity": "Hanuman", "text_dev": "बुद्धिहीन तनु जानिके सुमिरौं पवन-कुमार । बल बुद्धि बिद्या देहु मोहि हरहु कलेस बिकार ॥", "text_roman": "Buddhiheen tanu janike sumiron pavan-kumar | bal buddhi vidya dehu mohi harahu kalesh bikar ||", "meaning_hi": "अपने को बुद्धिहीन जानकर मैं पवनपुत्र हनुमान का स्मरण करता हूँ; मुझे बल, बुद्धि और विद्या दीजिए और मेरे कष्ट व विकार हर लीजिए।", "meaning_en": "Knowing myself to lack wisdom, I remember Hanuman, son of the Wind; grant me strength, intelligence and knowledge, and remove my troubles and flaws.", "source": "Hanuman Chalisa (Tulsidas)", "counts": [1, 3, 11]},
+    {"id": "m-hanuman-jai", "deity": "Hanuman", "text_dev": "जय हनुमान ज्ञान गुन सागर । जय कपीस तिहुँ लोक उजागर ॥", "text_roman": "Jai Hanuman gyan gun sagar | jai kapis tihun lok ujagar ||", "meaning_hi": "ज्ञान और गुणों के सागर हनुमान की जय; तीनों लोकों को प्रकाशित करने वाले कपीश्वर की जय।", "meaning_en": "Glory to Hanuman, ocean of wisdom and virtue; glory to the lord of the vanaras who lights up the three worlds.", "source": "Hanuman Chalisa (Tulsidas)", "counts": [1, 3, 11]},
+    {"id": "m-mahamrityunjaya", "deity": "Shiva", "text_dev": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ॥", "text_roman": "Om tryambakam yajamahe sugandhim pushti-vardhanam | urvarukam iva bandhanan mrityor mukshiya mamritat ||", "meaning_hi": "हम त्रिनेत्र शिव की उपासना करते हैं जो सुगंध और पुष्टि देने वाले हैं; जैसे पका फल बेल से अलग होता है, वैसे हम बंधनों से मुक्त हों।", "meaning_en": "We worship the three-eyed Shiva, fragrant and nourishing; as a ripe cucumber is freed from its vine, may we be freed from bondage.", "counts": [3, 11, 21, 108]},
+    {"id": "m-om-namah-shivaya", "deity": "Shiva", "text_dev": "ॐ नमः शिवाय", "text_roman": "Om Namah Shivaya", "meaning_hi": "कल्याणकारी शिव को प्रणाम।", "meaning_en": "I bow to Shiva, the auspicious one.", "counts": [11, 21, 54, 108]},
+    {"id": "m-dhanvantari", "deity": "Dhanvantari", "text_dev": "ॐ धन्वन्तरये नमः", "text_roman": "Om Dhanvantaraye Namah", "meaning_hi": "आरोग्य के देव धन्वंतरि को प्रणाम।", "meaning_en": "Salutations to Dhanvantari, the divine physician.", "counts": [11, 21, 54, 108]},
+    {"id": "m-sarve-bhavantu", "deity": "Universal peace", "text_dev": "ॐ सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः । सर्वे भद्राणि पश्यन्तु मा कश्चिद्दुःखभाग्भवेत् ॥ ॐ शान्तिः शान्तिः शान्तिः ॥", "text_roman": "Om sarve bhavantu sukhinah, sarve santu niramayah | sarve bhadrani pashyantu, ma kashchid duhkha-bhag bhavet || Om shantih shantih shantih ||", "meaning_hi": "सभी सुखी हों, सभी निरोगी हों, सभी शुभ देखें, किसी को भी दुःख न मिले। ॐ शांति शांति शांति।", "meaning_en": "May all be happy, may all be free from illness, may all see good, may no one suffer. Om peace, peace, peace.", "counts": [1, 3, 11]},
+    {"id": "m-asato-ma", "deity": "Light / Truth", "text_dev": "ॐ असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्मा अमृतं गमय ॥", "text_roman": "Om asato ma sad gamaya | tamaso ma jyotir gamaya | mrityor ma amritam gamaya ||", "meaning_hi": "मुझे असत्य से सत्य की ओर, अंधकार से प्रकाश की ओर, मृत्यु से अमरता की ओर ले चलो।", "meaning_en": "Lead me from untruth to truth, from darkness to light, from death to immortality.", "counts": [1, 3, 11]},
+    {"id": "m-ram-jaap", "deity": "Ram", "text_dev": "श्री राम जय राम जय जय राम", "text_roman": "Shri Ram Jai Ram Jai Jai Ram", "meaning_hi": "श्रीराम का नाम-स्मरण; सरल और लयबद्ध जप जो मन को ठहराव देता है।", "meaning_en": "Remembrance of Ram's name; a simple rhythmic chant many people find steadying.", "counts": [11, 21, 54, 108]},
+    {"id": "m-durga-sarvamangala", "deity": "Durga", "text_dev": "सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके । शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते ॥", "text_roman": "Sarva-mangala-mangalye shive sarvartha-sadhike | sharanye tryambake gauri narayani namo 'stu te ||", "meaning_hi": "हे सब मंगलों की मंगलरूपा, शिवा, सब कार्य सिद्ध करने वाली, शरण देने वाली, त्रिनेत्रा गौरी नारायणी, आपको नमस्कार।", "meaning_en": "Salutations to you, auspicious among all that is auspicious, giver of refuge, three-eyed Gauri, Narayani.", "source": "Devi Mahatmya", "counts": [1, 3, 11]},
+    {"id": "m-shiva-kshama", "deity": "Shiva", "text_dev": "कराचरणकृतं वा कर्मवाक्कायजं वा श्रवणनयनजं वा मानसं वापराधम् । विहितमविहितं वा सर्वमेतत्क्षमस्व जय जय करुणाब्धे श्रीमहादेव शम्भो ॥", "text_roman": "Kara-charana-kritam va karma-vak-kayajam va | shravana-nayanajam va manasam va aparadham | vihitam avihitam va sarvam etat kshamasva | jaya jaya karunabdhe shri-mahadeva shambho ||", "meaning_hi": "हाथ, पाँव, वाणी, शरीर, कान, आँख या मन से जो भी भूल हुई हो, उचित या अनुचित, हे करुणा के सागर महादेव, सब क्षमा कीजिए।", "meaning_en": "Forgive every wrong done by hands, feet, speech, body, ears, eyes or mind, proper or improper, O Mahadeva, ocean of compassion.", "counts": [1, 3]}
+  ],
+  "concerns": [
+    {
+      "id": "exam",
+      "label_hi": "परीक्षा की घबराहट",
+      "label_en": "Exam nerves",
+      "tagline_hi": "थोड़ा रुको, साँस लो। पढ़ाई का मन फिर से ठहरेगा।",
+      "tagline_en": "Pause and breathe. Let the mind settle before you go back to studying.",
+      "validation_hi": "परीक्षा से पहले घबराहट बहुत लोगों को होती है। यह आपकी कमज़ोरी नहीं है।",
+      "validation_en": "Many people feel nervous before exams. It does not mean you are weak.",
+      "suggested_deities": ["Saraswati", "Ganesha", "Guru"],
+      "breathing_id": "calm-4-6",
+      "mantra_ids": ["m-saraswati-beej", "m-saraswati-vandana", "m-ganesh-vakratunda", "m-guru-shloka", "m-gayatri", "m-hanuman-buddhiheen"],
+      "reflection_id": "r-gita-2-47",
+      "grounding_hi": ["एक गिलास पानी पियो।", "काग़ज़ पर आज के सिर्फ़ 3 छोटे काम लिखो, पूरा सिलेबस नहीं।", "कंधे ढीले करो, 10 सेकंड के लिए खिड़की से बाहर देखो।", "पिछली बार जो चीज़ अच्छी की थी, वह एक वाक्य में लिखो।"],
+      "grounding_en": ["Drink a glass of water.", "Write just 3 small tasks for today, not the whole syllabus.", "Relax your shoulders and look out of a window for 10 seconds.", "Write one thing you did well last time, in one sentence."],
+      "mini_puja": {
+        "title_hi": "2 मिनट की छोटी पूजा (घर के सामान से)",
+        "title_en": "A 2-minute mini puja (with things at home)",
+        "items_hi": ["एक दीया या मोमबत्ती", "थोड़ा जल", "अपनी किताब या कलम"],
+        "items_en": ["A diya or candle", "A little water", "Your book or pen"],
+        "steps_hi": ["दीया जलाओ और किताब/कलम सामने रखो।", "आँखें बंद करके 3 बार धीमी साँस लो।", "सरस्वती या गणेश जी को मन ही मन प्रणाम करो और मंत्र बोलो।", "प्रार्थना करो: मैं अपनी पूरी मेहनत करूँगा/करूँगी, बाकी आप पर छोड़ता/छोड़ती हूँ।", "दीया सुरक्षित जगह रखकर पढ़ाई पर लौटो।"],
+        "steps_en": ["Light the diya and keep your book or pen in front of you.", "Close your eyes and take 3 slow breaths.", "Bow mentally to Saraswati or Ganesha and say the mantra.", "Pray: I will give my full effort and leave the rest to You.", "Place the lamp safely and return to studying."]
+      },
+      "practical_note_hi": "अगर नींद, भूख या पढ़ाई पर घबराहट बहुत ज़्यादा असर डाल रही है, तो किसी शिक्षक, परिवार के बड़े या काउंसलर से बात करना मददगार हो सकता है।",
+      "practical_note_en": "If nerves are badly affecting your sleep, appetite or studies, talking to a teacher, an elder in the family or a counsellor can help.",
+      "helpline_ids": ["tele-manas"],
+      "related_pooja_ids": ["saraswati-puja", "ganesh-sthapana-puja"],
+      "related_festival_ids": ["vasant-panchami", "guru-purnima"]
+    },
+    {
+      "id": "wellbeing",
+      "label_hi": "सेहत / अपनों की कुशलता की चिंता",
+      "label_en": "Worry about health or a loved one's well-being",
+      "tagline_hi": "चिंता के इस पल में मन को थोड़ा सहारा दो।",
+      "tagline_en": "Give your mind a little support in this anxious moment.",
+      "validation_hi": "अपनों या अपनी सेहत की चिंता होना स्वाभाविक है। आप जो महसूस कर रहे हैं वह मायने रखता है।",
+      "validation_en": "It is natural to worry about your own or a loved one's health. What you feel matters.",
+      "medical_banner_hi": "अगर सीने में दर्द, साँस लेने में तकलीफ़, बेहोशी या कोई गंभीर लक्षण है, तो अभी 112 पर कॉल करें या नज़दीकी अस्पताल जाएँ। प्रार्थना इलाज की जगह नहीं लेती।",
+      "medical_banner_en": "If there is chest pain, difficulty breathing, fainting or any serious symptom, call 112 or go to the nearest hospital right now. Prayer does not replace treatment.",
+      "suggested_deities": ["Shiva", "Hanuman", "Dhanvantari"],
+      "breathing_id": "calm-4-6",
+      "mantra_ids": ["m-om-namah-shivaya", "m-mahamrityunjaya", "m-dhanvantari", "m-hanuman-jai", "m-sarve-bhavantu"],
+      "reflection_id": "m-asato-ma",
+      "grounding_hi": ["जो आपके हाथ में है, उसकी एक छोटी सूची बनाओ (दवा समय पर, डॉक्टर से फ़ोन, पानी, आराम)।", "किसी भरोसेमंद व्यक्ति को फ़ोन करके अपनी बात बताओ।", "रात को देर तक बुरी ख़बरें और सर्च करना कुछ देर के लिए रोक दो।", "पाँच चीज़ें गिनो जो आप अभी देख सकते हैं।"],
+      "grounding_en": ["List the few things within your control (medicines on time, calling the doctor, water, rest).", "Call a trusted person and tell them how you feel.", "Pause endless searching of worrying news and symptoms for a while.", "Name five things you can see right now."],
+      "mini_puja": {
+        "title_hi": "2 मिनट की छोटी प्रार्थना",
+        "title_en": "A 2-minute mini prayer",
+        "items_hi": ["एक दीया या मोमबत्ती", "थोड़ा जल"],
+        "items_en": ["A diya or candle", "A little water"],
+        "steps_hi": ["दीया जलाओ और शांत जगह बैठो।", "3 धीमी साँस लो।", "जिनकी चिंता है उनका नाम मन में लेकर शिव जी/हनुमान जी/धन्वंतरि जी को प्रणाम करो।", "मंत्र बोलो या सिर्फ़ ॐ का उच्चारण करो।", "अंत में कहो: सबके स्वास्थ्य और शांति की प्रार्थना। फिर जो ज़रूरी चिकित्सकीय काम है, वह करो।"],
+        "steps_en": ["Light a diya and sit somewhere quiet.", "Take 3 slow breaths.", "Mentally name the person you are worried about and bow to Shiva, Hanuman or Dhanvantari.", "Say the mantra or simply chant Om.", "Close with a prayer for everyone's health and peace, then do whatever medical step is needed."]
+      },
+      "practical_note_hi": "प्रार्थना मन को सहारा दे सकती है, पर बीमारी या लक्षणों के लिए डॉक्टर से सलाह ज़रूरी है। अगर चिंता बहुत ज़्यादा या लगातार है, तो काउंसलर से बात करें।",
+      "practical_note_en": "Prayer can support the mind, but illness or symptoms need a doctor's advice. If the worry is overwhelming or constant, please talk to a counsellor.",
+      "helpline_ids": ["tele-manas", "emergency-112"],
+      "related_pooja_ids": ["maha-mrityunjaya-jaap", "rudrabhishek", "sunderkand-path"],
+      "related_festival_ids": ["maha-shivratri", "hanuman-jayanti", "dhanteras"]
+    },
+    {
+      "id": "kalesh",
+      "label_hi": "घर में कलह / झगड़े का तनाव",
+      "label_en": "Tension or conflict (kalesh) at home",
+      "tagline_hi": "पहले मन को ठंडा करो, फिर बात करो।",
+      "tagline_en": "Cool the mind first, then talk.",
+      "validation_hi": "झगड़े के बाद मन भारी हो जाता है। थोड़ा रुकना और शांत होना ठीक है।",
+      "validation_en": "The mind feels heavy after an argument. It is okay to pause and settle first.",
+      "safety_banner_hi": "अगर घर में मारपीट, धमकी या जान का ख़तरा है, तो पहले सुरक्षित जगह जाएँ और 112 पर कॉल करें। महिला हेल्पलाइन 181 भी उपलब्ध है।",
+      "safety_banner_en": "If there is violence, threats or danger to life at home, move to a safe place first and call 112. The Women Helpline 181 is also available.",
+      "suggested_deities": ["Ram", "Durga", "Shiva", "Hanuman"],
+      "breathing_id": "calm-4-6",
+      "mantra_ids": ["m-ram-jaap", "m-sarve-bhavantu", "m-durga-sarvamangala", "m-shiva-kshama", "m-hanuman-jai"],
+      "reflection_id": "m-asato-ma",
+      "grounding_hi": ["10 मिनट के लिए बहस रोक दो; कोई जवाबी संदेश या फ़ोन नहीं।", "ठंडा पानी पियो और मुँह धो लो।", "एक काग़ज़ पर लिखो: मैं क्या चाहता/चाहती हूँ, और सामने वाले की क्या ज़रूरत हो सकती है।", "बात दोबारा शुरू करो तो पहले एक वाक्य कहो: मैं तुम्हारी बात सुनना चाहता/चाहती हूँ।"],
+      "grounding_en": ["Pause the argument for 10 minutes; no reply messages or calls.", "Drink cold water and wash your face.", "Write on paper what you want and what the other person might need.", "When you resume, start with one sentence: I want to hear you."],
+      "mini_puja": {
+        "title_hi": "2 मिनट की शांति-प्रार्थना",
+        "title_en": "A 2-minute prayer for peace",
+        "items_hi": ["एक दीया या मोमबत्ती", "थोड़ा जल", "तुलसी का पौधा हो तो पास में"],
+        "items_en": ["A diya or candle", "A little water", "A tulsi plant nearby if you have one"],
+        "steps_hi": ["अलग शांत जगह जाओ और दीया जलाओ।", "3 धीमी साँस लो।", "राम जी/दुर्गा माँ/शिव जी को प्रणाम करो और मंत्र बोलो।", "मन में कहो: मेरी वाणी में नरमी हो, और घर में शांति हो।", "अगर मन करे तो क्षमा-प्रार्थना बोलो, फिर पानी पीकर बाहर आओ।"],
+        "steps_en": ["Go to a quiet corner and light a diya.", "Take 3 slow breaths.", "Bow to Ram, Durga or Shiva and say the mantra.", "Say silently: may my speech be gentle and may there be peace at home.", "If you wish, say the forgiveness prayer, drink water and rejoin the family."]
+      },
+      "practical_note_hi": "यह प्रार्थना किसी को बदलने या हर झगड़ा सुलझाने की गारंटी नहीं देती; यह आपको शांत होकर बात करने में मदद कर सकती है। बार-बार कलह हो तो परिवार के बड़े, काउंसलर या मध्यस्थ की मदद लें।",
+      "practical_note_en": "This prayer does not guarantee that anyone will change or that every quarrel will end; it may help you speak more calmly. If conflict keeps recurring, seek help from an elder, counsellor or mediator.",
+      "helpline_ids": ["tele-manas", "emergency-112", "women-181"],
+      "related_pooja_ids": ["sunderkand-path", "satyanarayan-katha", "akhand-ramayan-path"],
+      "related_festival_ids": ["ram-navami", "vivah-panchami", "hanuman-jayanti"]
+    }
+  ],
+  "closing": {
+    "checkin_options_hi": ["थोड़ा शांत लगा", "वैसा ही है", "अभी भी भारी है"],
+    "checkin_options_en": ["A little calmer", "About the same", "Still heavy"],
+    "if_still_heavy_hi": "यह भी ठीक है। चाहें तो एक बार और साँस और मंत्र दोहराएँ, किसी अपने से बात करें, या नीचे दी गई हेल्पलाइन पर बात करें।",
+    "if_still_heavy_en": "That is okay too. You can repeat the breathing and mantra once more, talk to someone close to you, or call the helpline below."
+  }
+}
